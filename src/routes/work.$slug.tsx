@@ -18,6 +18,7 @@ function CaseStudy() {
   const project = Route.useLoaderData();
   const current = projects.findIndex((item) => item.slug === project.slug);
   const next = projects[(current + 1) % projects.length];
+  if (!next) return null;
   return <article className={`case-study case-${project.tone}`}>
     <header className="case-hero"><Link to="/work" className="back-link"><ArrowLeft/> All work</Link><div className="case-title"><p>{project.category}</p><h1>{project.title}</h1><p className="case-deck">{project.description}</p><div className="case-tags"><Tag>{project.role}</Tag><Tag>{project.duration}</Tag><Tag>{project.year}</Tag></div></div><div className="case-cover"><img src={project.image} alt={project.imageAlt} width={1200} height={912}/><span>Case study / 0{current + 1}</span></div></header>
     <div className="case-body">

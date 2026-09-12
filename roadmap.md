@@ -1,8 +1,8 @@
 # Portfolio build roadmap
 
-- [ ] Establish the comic-inspired design system and typography
-- [ ] Build persistent responsive navigation and shared components
-- [ ] Build Home, Work, About, Resume, and Contact views
-- [ ] Build dedicated interactive case-study routes
-- [ ] Add cohesive illustrated assets and motion
+- [x] Establish the comic-inspired design system and typography
+- [x] Build persistent responsive navigation and shared components
+- [x] Build Home, Work, About, Resume, and Contact views
+- [x] Build dedicated interactive case-study routes
+- [x] Add cohesive illustrated assets and motion
 - [ ] Verify accessibility, responsive layouts, and production health
