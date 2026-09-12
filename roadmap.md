@@ -5,4 +5,4 @@
 - [x] Build Home, Work, About, Resume, and Contact views
 - [x] Build dedicated interactive case-study routes
 - [x] Add cohesive illustrated assets and motion
-- [ ] Verify accessibility, responsive layouts, and production health
+- [x] Verify accessibility, responsive layouts, and production health
